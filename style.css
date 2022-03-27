@@ -1,0 +1,56 @@
+body {
+    background-image: url("Back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+span
+{
+  font-size: 30px;
+}
+
+#camera , #result, #result_img
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+
+#result {
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: crimson;
+  margin-top: 10px;
+}
+
+center {
+  margin: 50px;
+}
+
+#title{
+  width: 275px;
+  height: 90px;
+  border-radius: 10px;
+  letter-spacing: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 10px 5px 25px 10px darkblue;
+}
+
+label{
+  font-size: 20px; 
+  color:darkviolet;
+  font-weight: 700;
+  background-color: coral;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#capture_img, #identify_img{
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  
+	background: linear-gradient(to right, #96DEDA, #50C9C3);
+}
